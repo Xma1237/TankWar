@@ -1,0 +1,21 @@
+1.Set the direction of your tank
+    Enum Dir
+2.Change the direction of your tank by button
+    setMainTankDir()
+3.Move tank by your direction
+4.Set the statue of tank when not moving
+    moving = false
+5.Make more Tank and Bullet
+    package Tank and Bullet into classes
+    "packaging"
+6.Fire a Bullet
+    press "ctrl" -- fire bullet
+7.Fire a series of bullet
+    put bullet into a container
+8.Double buffering to reduce the refreshing issue
+    a.repaint - update
+    b.override method update()
+    c.first, draw tank & bullet on an image in the memory(same
+        size with frame)
+    d.draw the whole image on screen at once
+
